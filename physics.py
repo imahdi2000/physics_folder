@@ -8,8 +8,8 @@ def run():
     kg = raw_input('Enter mass of object in kg: ')
     while(True):
         print "New Trial-------------------------------------"
-        s = raw_input('Enter seconds: ')
-        h = raw_input('Enter height in meters: ')
+        s = input('Enter seconds: ')
+        h = input('Enter height in meters: ')
         print " Speed: " + str(speed(s))
         print ".5mv^2: " + str(kenergy(s))
         print "  -^PE: " + str(penergy(h))
