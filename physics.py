@@ -3,13 +3,13 @@ kg = 0
 
 def run():
     global m
-    m = input('Enter diameter of tube in meters: ')
+    m = raw_input('Enter diameter of tube in meters: ')
     global kg
-    kg = input('Enter mass of object in kg: ')
+    kg = raw_input('Enter mass of object in kg: ')
     while(True):
         print "New Trial-------------------------------------"
-        s = input('Enter seconds: ')
-        h = input('Enter height in meters: ')
+        s = raw_input('Enter seconds: ')
+        h = raw_input('Enter height in meters: ')
         print " Speed: " + str(speed(s))
         print ".5mv^2: " + str(kenergy(s))
         print "  -^PE: " + str(penergy(h))
